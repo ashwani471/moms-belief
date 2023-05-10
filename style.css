@@ -1,0 +1,818 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli','Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/*--------------------------------- navigation section --------------*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    gap: 30px;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    /* background: rgba(252, 249, 73, 0.567); */
+    background: #fcecbd;
+    
+}
+
+/* -----------------------navigation logo part -----------------------*/
+
+nav .image-part{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .image-part .vector-img{
+    width: 23px;
+    height: 26px;
+    margin-right: 11px;
+    background-image:url(./Assets/Vector.png) ;
+    background-repeat: no-repeat;
+}
+
+nav .image-part .logo{
+    width: 155px;
+    height: 36px;
+    background-image: url(./Assets/image\ 2.png);
+    background-repeat: no-repeat;
+}
+
+/*-------------------------- navigation Routes part ------------------*/
+nav .nav-routes{
+  display: flex;
+}
+
+.nav-routes p{
+    margin-left: 3rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #151B4A;
+}
+
+/*---------------------- navigation button part -------------------*/
+
+nav .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    gap: 30px;
+}
+
+nav .btn .sign-up{
+    padding: 7px 20px;
+    gap: 10px;
+    width: 94px;
+    height: 38px;
+    background: #125D50;
+    border-radius: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+}   
+
+nav .btn .login{
+    padding: 7px 20px;
+    gap: 10px;
+    width: 94px;
+    height: 38px;
+    background: transparent;
+    border-radius: 60px;
+    border-color:#125E50 ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #125E50;
+}
+
+/* ---------------Empower Moms Section ----------------*/
+
+.empower{
+    background-image: url(./Assets/Hero\ section\ bg.png);
+    /* background-size: ; */
+    min-width: 100%;
+    height: 760px;
+    /* left: 0px; */
+    /* top: 0px; */
+    /* position: inherit; */
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 82px;
+    /* border: 2px solid black; */
+}
+
+.empower .empower-text{
+    width: 44%;
+    /* height: 120px; */
+    /* margin: 122px 122px auto; */
+    /* position: absolute;    */
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.empower .empower-text h1{
+    /* left: 379px;
+    top: 121px; */
+
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+   
+
+    text-align: center;
+    letter-spacing: 0.02em;
+     margin-bottom: 20px;
+    color: #151B4A;
+}
+
+.underline{
+    /* background-image: url(./Assets/Vector\ 17.png); */
+    text-decoration: none;
+    padding-bottom: 10px;
+    width: 148.45px;
+    background: url(./Assets//Vector\ 17.png) bottom no-repeat;
+}
+
+.empower .empower-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-bottom: 40px;
+    color: #4E516C;
+}
+
+.empower .empower-text .explore-btn{
+    padding: 10px 30px;
+    gap: 10px;
+    width: 204px;
+    height: 44px;
+    background: #125E50;
+    border-radius: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;letter-spacing: 0.03em;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.empower .empower-text .free-asses{
+    /* width: 373px;
+    height: 54px;  */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4E516C;
+}
+
+/*--------------------- curated program---------------- */
+
+.curated-prog{
+    width: 95%;
+    height: 874px;
+    /* background: #E4F7F3; */
+    border-radius: 20px;
+    background-image: url(./Assets/Rectangle\ 35.png);
+    margin: 0 auto;
+}
+
+.curated-prog {
+    border: 1px solid;  
+    margin-bottom: 100px;
+}
+
+.curated-prog .curated-text{
+    width: 766px;
+    /* height: 128px; */
+    /* border: 2px solid black; */
+    margin: 110px auto;
+}
+
+.curated-prog .curated-text .curated-heading{
+    width: 633px;
+    height: 55px;
+    left: 66.5px;
+    top: 0px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #151B4A;
+    margin: 0 auto;
+}
+
+.curated-prog .curated-text .curated-paragraph{
+    width: 766px;
+    height: 54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4E516C;
+}
+
+.curated-prog .images-sec{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.image-outline{
+    background-image: url(./Assets/Rectangle\ 25.png);
+    background-repeat: no-repeat;
+    /* height: 300px; */
+    width: 300px;
+    border-radius: 15px;
+}
+
+.image{
+    width: 264px;
+    height: 264px;
+    padding: 24px;
+    margin-bottom: 54px;
+}
+
+.image-content h6{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #151B4A;
+    margin-bottom: 10px;
+}
+
+.image-content p{
+    bottom: 8.68%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+    letter-spacing: 0.04em;
+
+    color: #4E516C;
+}
+
+.image-content a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 169% */
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    color: #EA5858;
+    margin-bottom: 122px;
+}
+
+/*-------------------------- form text --------------------- */
+
+input , label{
+    display: block;
+}
+
+.forms{
+    border-radius: 15px;
+    background-image: url(./Assets/Rectangle\ 94.png);
+    background-repeat: no-repeat;
+    width: 95%;
+    margin: 0px auto;
+    height: 767px;
+}
+
+.forms .read-content{
+    width: 46%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.forms .read-content .read-content-heading{
+   width: 52%;
+   margin: 0 auto;
+}
+
+.forms .read-content .read-content-heading h6{
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 55px;    
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 0;
+    color: #151B4A;
+    padding-top: 60px;
+}
+
+.forms .read-content .read-content-para{
+  width: 100%;
+}
+
+.forms .read-content .read-content-para p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;    
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4E516C;
+}
+
+.forms .forms-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.forms .forms-container .form h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    /* Heading colour */
+    margin-top: 60px;
+    color: #151B4A;
+    padding-top: 40px;
+}
+
+.form .upper-input{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.form .upper-input label{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    /* text-align: center; */
+    letter-spacing: 0.04em;
+
+    /* Paragraph colour */
+
+    color: #4E516C;
+}
+
+.form .upper-input input{
+    width: 300px;
+    height: 43px;
+    font-size: 17px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+.form .lower-input{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.form .lower-input label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    /* text-align: center; */
+    letter-spacing: 0.04em;
+
+    /* Paragraph colour */
+
+    color: #4E516C;
+}
+
+
+.form .lower-input input{
+    width: 300px;
+    height: 43px;
+    font-size: 17px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+.form .lower-input .email{
+    width: 623px;
+}
+
+.form .request-btn{
+    text-align: center;
+    /* margin-bottom: 40px; */
+}
+
+.form .request-btn button{
+    /* align-items: center; */
+    padding: 10px 30px;
+    gap: 10px;
+
+    width: 174px;
+    height: 44px;
+
+    background: #125E50;
+    border-radius: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* align-items: center; */
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    /* Light/Greyscale/White */
+
+    color: #FFFFFF;
+
+
+}
+
+.form .request-btn p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    /* align-items: center;
+    text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: #4E516C;
+
+}
+
+
+/*------------------- plans and packages----------------- */
+
+
+.plans{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    margin: 80px auto;
+}
+
+
+.plans .plans-desc{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.plans h6{
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    /* line-height: 55px; */
+    /* identical to box height, or 172% */
+    
+    letter-spacing: 0.02em;
+    
+    /* Heading colour */
+    /* text-align: center; */
+    color: #151B4A;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.plans p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #4E516C;
+    
+
+}
+
+.packages{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plans .packages .cost{
+    width: 230px;
+    background: #FFF9E1;
+    margin-bottom: 6px;
+}
+
+.packages .cost:hover{
+    background:  #FFCC00;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in;
+}
+
+
+
+.plans .packages .cost h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    /* Heading colour */
+
+    color: #151B4A;
+}
+
+
+.plans .packages .cost p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #151B4A;
+}
+
+.benefits{
+   width: 80%;
+   margin: 0 auto;
+   text-align: start;
+}
+
+.benefits .benefit-head{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    margin-left: 30px;
+    text-align: start;
+    letter-spacing: 0.04em;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #000000;     
+}
+
+.benefits .benefit-list ul{
+  /* display: flex;
+  /* display: flex; */
+    /* justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center; */ 
+    display: flex;
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+.benefits .benefit-list ul li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+/* identical to box height, or 169% */
+
+/* text-align: center; */
+    width: 33%;
+    letter-spacing: 0.04em;
+
+    /* Paragraph colour */
+
+    color: #4E516C;
+    list-style-type: none;
+}
+
+
+.benefits .benefit-list ul li::before{
+    color:  #EA5858;
+    content: "\2022";
+    /* color: red; */
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    padding-right: 1em;
+    /* margin-left: 3em; */
+    
+}
+
+@media only screen and (max-width:500px)  {
+
+    nav{
+        width: 100vw;
+    }
+
+    nav .nav-routes{
+        display: none;
+    }
+    nav .btn{
+        display: none;
+    }
+
+    nav .image-part .vector-img{
+        margin-right: 76px ;
+    }
+    .empower .empower-text{
+        width: 90%;
+    }
+    
+    .curated-prog{
+        width: 100vw;
+        height: auto;
+        background-size: cover;
+        margin: 0 auto;
+    background-repeat: no-repeat;
+    }
+
+    .curated-prog .curated-text{
+        margin: 50px auto;
+    }
+    
+    .curated-prog .curated-text .curated-heading {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .curated-prog .curated-text .curated-heading h6{
+        width: 100%;
+        /* margin: 0; */
+    }
+
+    .curated-prog .curated-text .curated-paragraph{
+        display: none;
+    }
+
+    .curated-prog .images-sec{
+        flex-wrap: wrap;
+    }
+
+    .images-sec .image-outline .image-content{
+        text-align: center;
+    }
+
+    .images-sec .image-outline .image-content h6{
+        text-align: center;
+    }
+
+    .forms{
+        background-size: cover;
+        height: auto;
+    }
+
+    .forms .read-content{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .forms .forms-container{
+        width: 96%;
+    }
+
+    .forms .forms-container .form h6{
+        margin-top: 0px;
+    }
+
+    .forms-container .form{
+        width: 100%;
+        /* background: transparent; */
+        margin: 0 auto;
+        background: #E4F7F3;
+    
+    }
+
+    .forms-container .form .upper-input{
+        flex-direction: column;
+        /* margin-left: 4%; */
+        margin-bottom: 0px;
+    }
+
+    .forms-container .form .upper-input input{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .forms-container .form .lower-input{
+        flex-direction: column;
+        /* margin: 4%; */
+    }
+
+    .forms-container .form .lower-input input{
+       width: 100%;
+       margin-bottom: 5px;
+    }
+
+    .lower-input .email-id .email{
+        width: 100%;
+    }
+
+    .plans .plans-desc{
+        width: 100%;
+    }
+
+    .plans .packages{
+        flex-direction: column;
+    }
+    .plans .packages .cost{
+        margin-bottom: 13px;
+    }
+
+    .benefits{
+        display: none;
+    }
+}
