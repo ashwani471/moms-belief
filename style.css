@@ -716,6 +716,18 @@ footer{
     
 }
 
+.media-content{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+color: #4E516C;
+
+}
+
 .social-media-section .social-media{
     width: 30%;
     margin-top: 68px;
@@ -724,6 +736,40 @@ footer{
 .social-media-section .company{
     width: 20%;
     margin-top: 51px;
+}
+
+.company h1 , 
+.resources h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: center;
+    /* identical to box height, or 150% */
+
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: #151B4A;
+
+}
+
+.company ul li , 
+.resources ul li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+
+    /* identical to box height, or 169% */
+
+    letter-spacing: 0.03em;
+
+    color: #4E516C;
+
 }
 
 .social-media-section .resources{
@@ -737,7 +783,20 @@ footer{
 }
 
 .copyright{
-    padding: 35px 0%;
+    /* padding: 35px 0%; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+
+    color: #4E516C;
 }
 
 /*----------------------- media Queries----------------------------- */
