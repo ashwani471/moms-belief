@@ -94,6 +94,7 @@ nav .btn .sign-up{
     line-height: 24px;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }   
 
 nav .btn .login{
@@ -113,6 +114,11 @@ nav .btn .login{
     text-align: center;
     letter-spacing: 0.03em;
     color: #125E50;
+}
+
+nav .btn .login:hover{
+    background-color: #E4F7F3;
+    cursor: pointer;
 }
 
 /* ---------------Empower Moms Section ----------------*/
@@ -692,7 +698,16 @@ input , label{
     
 }
 
+footer{
+    display: none;
+}
+
 @media only screen and (max-width:500px)  {
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     nav{
         width: 100vw;
@@ -711,6 +726,18 @@ input , label{
     .empower .empower-text{
         width: 90%;
     }
+    .empower .empower-text h1 {
+        font-size: 25px;
+        width: 80%;
+        margin: 0 auto;
+        line-height: 40px;
+    }
+
+    /* .empower .empower-text .explore-btn {
+        width: 165px;
+        height: 36px;
+        font-size: 15px;
+    } */
     
     .curated-prog{
         width: 100vw;
@@ -776,6 +803,24 @@ input , label{
     
     }
 
+    .forms .read-content .read-content-heading{
+        width: 80%;
+        /* line-height: 30px; */
+    }
+
+    .forms .read-content .read-content-heading h6{
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .forms .forms-container .form h6 {
+        font-size: 18px;
+        width: 76%;
+        margin: 20px auto;
+    }
+
     .forms-container .form .upper-input{
         flex-direction: column;
         /* margin-left: 4%; */
@@ -815,4 +860,25 @@ input , label{
     .benefits{
         display: none;
     }
+
+    /*----------------- footer styling -----------------*/
+
+    footer{
+      display: block;
+      background-color: #000000;
+      border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    }
+
+    footer .footer-wrap{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 3px;
+        
+    }
+
 }
