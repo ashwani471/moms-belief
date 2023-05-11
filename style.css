@@ -629,10 +629,62 @@ input , label{
     color: #151B4A;
 }
 
+.enroll-div{
+    text-align: center;
+}
+
+.enroll{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 10px 30px; */
+    /* gap: 10px; */
+
+    width: 145px;
+    height: 44px;
+    border: none;
+    background: #125E50;
+    border-radius: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    /* Light/Greyscale/White */
+
+    color: #FFFFFF;
+
+}
+
+.enroll-div p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+/* identical to box height, or 171% */
+
+/* display: flex; */
+/* align-items: center; */
+/* text-align: center; */
+letter-spacing: 0.03em;
+
+color: #4E516C;
+}
+
 .benefits{
    width: 80%;
    margin: 0 auto;
    text-align: start;
+   margin-bottom: 40px;
 }
 
 .benefits .benefit-head{
